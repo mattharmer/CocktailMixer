@@ -1,0 +1,22 @@
+{
+    "short_name": "ClassicCocktail",
+    "name": "Classic Cocktail Search",
+    "description": "Learn about classic cocktails origins, making methods and other information.",
+    "icons": [
+      {
+        "src": "assets/icon-192-classiccocktails.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "assets/icon-512-classiccocktails.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "index.html",
+    "background_color": "Ivory",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#737373"
+  }

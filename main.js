@@ -1,17 +1,4 @@
-// Search For Classic Cocktails or Click from cocktail List.
-
-// Initially hide all cocktail text.
-function hideInfo () {
-  let myClasses = document.querySelectorAll('.cocktail'),
-      i = 0,
-      l = myClasses.length;
-
-  for (i; i < l; i++) {
-      myClasses[i].style.display = 'none';
-  }
-}
-
-hideInfo ();
+// Search For Classic Cocktails and Click from cocktail List.
 
 // Cocktail filter function
 function searchCocktails() {
@@ -32,18 +19,32 @@ function searchCocktails() {
   }
 }
 
-// Hide and Show text function.
-function hideShow(id) {
-  let myClasses = document.querySelectorAll('.cocktail'),
-      i = 0,
-      l = myClasses.length;
-  for (i; i < l; i++) {
-      myClasses[i].style.display = 'none';
-  }
-   let e = document.getElementById(id);
-   if(e.style.display == 'block')
-      e.style.display = 'none';
-
-   else
-      e.style.display = 'block';
+// ServiceWorker is a progressive technology. Ignore unsupported browsers
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('sw.js')
+           .then(function() { console.log("Service Worker Registered"); });
 }
+
+// // Initially hide all cocktail text. DEPRECIATED - Going to new page.
+// function hideInfo () {
+//   let myClasses = document.querySelectorAll('.cocktail'),
+//       i = 0,
+//       l = myClasses.length;
+
+//   for (i; i < l; i++) {
+//       myClasses[i].style.display = 'none';
+//   }
+// }
+//hideInfo ();
+
+// // Hide and Show text function. DEPRECIATED - Going to new page.
+// function hideShow(id) {
+//   hideInfo ();
+//    let e = document.getElementById(id);
+//    if(e.style.display == 'block')
+//       e.style.display = 'none';
+
+//    else
+//       e.style.display = 'block';
+// }
