@@ -5,12 +5,14 @@ self.addEventListener('install', function(event) {
           [
             'index.html',
             'americano.html',
+            'aperol-spritz.html',
             'css/style.css',
             'css/pageStyle.css',
             'css/animate.css',
             'main.js',
             'favicon.ico',
-            'img/americano.png'
+            'img/americano.png',
+            'img/aperol-spritz.png'
           ]
         );
       })

@@ -37,7 +37,7 @@ li:hover {
 }
 
 a {
-  font-size: 1em;
+  font-size: 0.8em;
   -moz-transition: all .2s ease-in;
   -o-transition: all .2s ease-in;
   -webkit-transition: all .2s ease-in;
@@ -79,7 +79,7 @@ footer ul li {
 }
 
 footer ul li a {
-  font-size: 1em;
+  font-size: 0.8em;
   text-decoration: none;
   color: black;
 }
