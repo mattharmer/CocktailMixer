@@ -5,6 +5,7 @@ self.addEventListener('install', function(event) {
           [
             'index.html',
             'americano.html',
+            'bellini.html',
             'aperol-spritz.html',
             'css/style.css',
             'css/pageStyle.css',
