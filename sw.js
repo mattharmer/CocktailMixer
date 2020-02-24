@@ -5,14 +5,17 @@ self.addEventListener('install', function(event) {
           [
             'index.html',
             'americano.html',
-            'bellini.html',
             'aperol-spritz.html',
+            'bellini.html',
+            'bloody-mary.html',
             'css/style.css',
             'css/pageStyle.css',
             'css/animate.css',
             'main.js',
             'favicon.ico',
             'img/americano.png',
+            'img/bellini.png',
+            'img/bloody-mary.png',
             'img/aperol-spritz.png'
           ]
         );
