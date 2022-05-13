@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."assets/php/"; include($IPATH."headernav.html"); ?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Classic cocktail search. Aperol Spritz cocktail information.">
+    <meta name="theme-color" content="#737373">
+    <title>Aperol Spritz</title>
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/pageStyle.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/icon-192-classiccocktails.png">
+    <link rel="manifest" href="manifest.json">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158599580-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158599580-1');
+    </script>
+</head>
 <body>
 
     <h2 class="animated slideInLeft">Americano</h2>
@@ -23,6 +44,10 @@
     <p class="animated slow fadeIn delay-1s">As with most cocktails the Americano's origin can not be confirmed but it is suggested that this cocktail was invented in Gaspare Campari's bar in Milan around the 1860's. It was originally know as 'Milano-Torino' in relation to where the ingredients came from, the name change was meant to attract more american tourists.</p>
     <p class="animated slower fadeIn delay-1s">Some consider it the father of the Negroni, it is the first cocktail ordered by James Bond in the Ian Fleming's series, Casino Royale.</p>
     </br>
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."assets/php/"; include($IPATH."footernav.html"); ?>
+    <footer>
+        <ul>
+            <li><a title="Return to Search" href="index.html">Go Back</a></li>
+        </ul> 
+    </footer>
 </body>
 </html>
